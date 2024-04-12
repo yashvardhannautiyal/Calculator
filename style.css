@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Slab", serif;
+    
+}
+
+body{
+    background: url(math02.jpg);
+
+}
+#heads_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+#headIng{
+    text-shadow: 6px 6px rgba(167, 162, 162, 0.677);
+    font-size: 60px;
+    font-weight: 900;
+    letter-spacing: 7px;
+    color: rgba(226, 223, 223, 0.929);
+    
+} 
+
+ /* main container styling */
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.734);
+    width: 25%;
+    height: 280px;
+    padding: 40px;
+    margin:50px auto 0 auto;
+    border: 2px solid white;
+    border-radius: 30px;
+}
+
+/* buttons styling  */
+.btn{
+    
+    width: 60px;
+    padding: 14px;
+    border-radius: 10px;
+    margin: 3px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 800;
+    background-color: rgba(134, 115, 112, 0.708);
+}
+.btn:hover, .symbol{
+    color: rgb(233, 135, 135);
+    border: 2px solid rgb(233, 135, 135);
+    padding: 12px;
+}
+
+#equalTo{
+   background-color: rgb(233, 135, 135);
+   color: white;
+   width: 120px;
+   margin: 9px;
+}
+#equalTo:hover{
+   background-color: white;
+   border: 2px solid rgb(233, 135, 135);
+   color: rgb(233, 135, 135);
+}
+.symbol:hover{
+    color: white;
+    border: 2px solid white;
+}
+input{
+    margin-bottom: 20px;
+    padding: 5px;
+    font-size: 20px;
+    border: 2px solid white;;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(87, 76, 74, 0.52);
+}
