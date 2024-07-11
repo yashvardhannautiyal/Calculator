@@ -88,3 +88,29 @@ input{
 }
 
 /* Responsiveness */
+@media (max-width: 768px) {
+    #heading{
+        font-size: 40px;
+        letter-spacing: 4px;
+    }
+
+    #container{
+        width: 95%;
+        padding: 20px;
+    }
+
+    .btn{
+        width: 50px;
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    #equalTo{
+        width: 100px;
+        margin: 5px;
+    }
+
+    input{
+        font-size: 18px;
+    }
+}
