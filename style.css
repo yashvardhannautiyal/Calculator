@@ -90,7 +90,7 @@ input{
 @media (max-width: 768px) {
     #heading{
         font-size: 40px;
-        letter-spacing: 4px;
+        letter-spacing: 3px;
     }
 
     #container{
@@ -117,13 +117,13 @@ input{
 /* for mobile  */
 @media (max-width:576px){
     #heading{
-        font-size:30px;
-        letter-spacing : 3px; 
+        font-size:10px;
+        letter-spacing : 1px; 
     }
 
     #container{
-        width: 95%;
-        padding: 15px;
+        width: 70%;
+        padding: 8px;
     }
 
     .btn{
